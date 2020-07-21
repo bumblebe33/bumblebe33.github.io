@@ -1,0 +1,66 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.text{
+  padding: 20px;
+  text-align: center;
+}
+
+#map{
+  height: 50vh;
+  width: 100vw;
+}
+
+.profil{
+  display: block;
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 50px 0 0 0;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.wide-column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image1 img{
+  float: right;
+  height: 350px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.image2 img{
+  float: left;
+  height: 350px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.descriere{
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+
+.descriere p{
+  display: inline;
+}
